@@ -1,0 +1,10 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": [],
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "yapf",
+    "python.pythonPath": "C:\\Users\\Howbin\\AppData\\Local\\Programs\\Python\\Python37\\python.exe"
+}
