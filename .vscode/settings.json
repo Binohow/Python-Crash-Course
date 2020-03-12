@@ -6,6 +6,6 @@
     "python.linting.enabled": true,
     "python.linting.flake8Enabled": true,
     "python.formatting.provider": "yapf",
-    "python.pythonPath": "C:\\Users\\Howbin\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.pythonPath": "y:\\python\\Python Crash Course\\ll_env\\Scripts\\python.exe",
     "python.jediEnabled": true
 }
