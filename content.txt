@@ -1,0 +1,36 @@
+python 编程从入门到实战
+│  content.bat 目录生成工具
+│  how1.py  第一章
+│  how2.py  第二章
+│  how3.py  第三章
+│  how4.py  第四章
+│  how5.py  第五章
+│  how6.py  第六章
+│  how7.py  第七章
+│  how8.py  第八章
+│  how9.py  第九章
+│  list.txt
+│  readme.md
+│  
+├─.vscode
+│      launch.json
+│      settings.json
+│      
+├─how10 第十章
+│      file_reader.py
+│      numbers.json
+│      pi_digits.txt
+│      programming.txt
+│      
+├─how11 第十一章
+│      survey.py
+│      survey.pyc
+│      test_survey.py
+│      
+└─how8_1 第八章
+    │  making_pizza.py
+    │  pizza.py
+    │  pizza.pyc
+    │  
+    └─__pycache__
+            pizza.cpython-37.pyc
