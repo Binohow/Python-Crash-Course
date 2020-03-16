@@ -1,6 +1,6 @@
-ll_env\Lib\**
-ll_env\Scripts\**
-pizza_shop\Lib\**
-pizza_shop\Scripts\**
-ll_env\Scripts\**
+ll_env/Lib/**
+ll_env/Scripts/**
+pizza_shop/Lib/**
+pizza_shop/Scripts/**
+ll_env/Scripts/**
 *.pyc
