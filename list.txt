@@ -1,6 +1,7 @@
 卷 新加卷 的文件夹 PATH 列表
 卷序列号为 1C02-7D4C
 Y:.
+│  .gitignore
 │  content.bat
 │  content.txt
 │  how1.py
@@ -56,6 +57,10 @@ Y:.
     │          wsgi.cpython-37.pyc
     │          __init__.cpython-37.pyc
     │          
+    ├─learning_logs
+    │  ├─migrations
+    │  │  └─__pycache__
+    │  └─__pycache__
     ├─Lib
     │  └─site-packages
     │      │  easy_install.py
@@ -9702,6 +9707,28 @@ Y:.
     │      │      top_level.txt
     │      │      WHEEL
     │      │      
+    │      ├─pylint_django
+    │      │  ├─augmentations
+    │      │  │  └─__pycache__
+    │      │  ├─checkers
+    │      │  │  └─__pycache__
+    │      │  ├─tests
+    │      │  │  ├─input
+    │      │  │  │  ├─migrations
+    │      │  │  │  │  └─__pycache__
+    │      │  │  │  ├─models
+    │      │  │  │  │  └─__pycache__
+    │      │  │  │  └─__pycache__
+    │      │  │  └─__pycache__
+    │      │  ├─transforms
+    │      │  │  ├─transforms
+    │      │  │  │  └─__pycache__
+    │      │  │  └─__pycache__
+    │      │  └─__pycache__
+    │      ├─pylint_django-2.0.14.dist-info
+    │      ├─pylint_plugin_utils
+    │      │  └─__pycache__
+    │      ├─pylint_plugin_utils-0.6.dist-info
     │      ├─pytz
     │      │  │  exceptions.py
     │      │  │  lazy.py
