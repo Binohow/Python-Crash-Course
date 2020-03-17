@@ -1,7 +1,6 @@
 {
     "python.pythonPath": "Y:\\python\\Python Crash Course\\pizza_shop\\Scripts\\python.exe",
     "python.linting.pylintArgs": [
-        "--load-plugins",
-        "pylint_django"
+        "--load-plugins=pylint_django"
     ]
 }
