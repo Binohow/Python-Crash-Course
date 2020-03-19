@@ -1,11 +1,14 @@
 {% extends "pizzas/base.html"%}
 {% block content %}
-<p> Topics </p>
+<p> Pizzas' kind </p>
     <ul>
         {% for pizza in pizzas %}
-         <li>{{pizza}}</li>
+         <li>
+         <a href="{% url 'pizzas:pizza' pizza.id %}""> {{pizza}}  </a>
+         </li>
          {% empty %}
          <li>No topics have been added yet.</li>
          {% endfor %}
     </ul>
+    <a href="{% url 'pizzas:new_pizza' %}">Add a new topic:</a>
 {% endblock content %}
