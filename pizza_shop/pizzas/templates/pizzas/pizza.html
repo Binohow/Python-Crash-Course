@@ -2,10 +2,18 @@
 {% block content %}
 <p>Pizzas kinds:{{pizza}} </p>
 <p>Toppings </p>
+<p>
+<a href="{% url 'pizzas:new_topping' pizza.id%}">add new topping</a>
+</p>
 <ul>
     {% for topping in toppings %}
     <li>
         <p> {{topping.name|linebreaks}} </p>
+
+        <p>
+        <a href="{% url 'pizzas:edit_topping' topping.id%}">edit this topping</a>
+        </p>
+
     </li>
 
     {% empty %}
