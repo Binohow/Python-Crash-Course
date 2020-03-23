@@ -1,6 +1,14 @@
 {
     "python.pythonPath": "Y:\\python\\Python Crash Course\\pizza_shop\\Scripts\\python.exe",
+    "python.jediEnabled":false,
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": false,
+    "python.linting.lintOnSave": true,
     "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django"
-    ]
+        "--load-plugins=pylint_django",
+        "--disable=W0402,R0201,C0304", 
+        "--extension-pkg-whitelist=numpy"
+    ],
+    "python.formatting.provider": "yapf",
 }
