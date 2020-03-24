@@ -1,25 +1,29 @@
 {%extends 'pizzas/base.html' %} 
+
+{% block header %}
+    <h2>{{ pizza }}</h2>
+{% endblock header %}
+
 {% block content %}
-<p>Pizzas kinds:{{pizza}} </p>
-<p>Toppings </p>
 <p>
 <a href="{% url 'pizzas:new_topping' pizza.id%}">add new topping</a>
 </p>
-<ul>
-    {% for topping in toppings %}
-    <li>
-        <p> {{topping.name|linebreaks}} </p>
-
-        <p>
-        <a href="{% url 'pizzas:edit_topping' topping.id%}">edit this topping</a>
-        </p>
-
-    </li>
-
+{% for topping in toppings %}
+    <div class="panel panel-default">
+        <div class="panel-heading">
+                <h3>
+                    <small>
+                        <a href="{% url 'pizzas:edit_topping' topping.id%}">edit this topping</a>
+                    </small>
+                </h3>
+                <div class="panel-body">
+                    {{topping.name|linebreaks}}
+                </div>
+        </div> 
+    </div> <!-- panel --> 
     {% empty %}
-    <li>
+    <h3>
         There are no entries for this topic yet.
-    </li>
-    {%endfor%}
-</ul>
+    </h3>
+{%endfor%}
 {% endblock content %}

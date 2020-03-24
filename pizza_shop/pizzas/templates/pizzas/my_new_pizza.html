@@ -1,10 +1,14 @@
 {% extends "pizzas/base.html" %}
+{% load bootstrap3 %}
+{% block header %}
+    <h2>Add a new topic:</h2>
+{% endblock header %}
 {% block content %}
-    <p>Add a new topic:</p>
-     <form action="{% url 'pizzas:new_pizza' %}" method='post'>
+    <form action="{% url 'pizzas:new_pizza' %}" method='post' class="form">
       {% csrf_token %}
-      {{ form.as_p }}
+      {% bootstrap_form form %}
+      {% buttons %}
       <button name="submit">add topic</button>
+      {%endbuttons%}
     </form>
-
 {% endblock content %}
